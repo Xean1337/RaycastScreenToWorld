@@ -2,8 +2,12 @@
 
 This is a lightweight and simple way to cast a raycast from the mouse of the player to in-game.
 
-# Example Usage
+# Export
+```lua
+exports.raycast:screenToWorld(flags ignore, distance)
+```
 
+# Example Usage
 ```lua
 RegisterKeyMapping("+use", "Raycast", "keyboard", "LMENU")
 RegisterCommand("+use", function()
