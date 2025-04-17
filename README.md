@@ -10,7 +10,10 @@ exports.raycast:screenToWorld(flags ignore, distance)
 # Example Usage
 
 ```lua
-local _, hit, endCoords, _, entityHit = exports.raycast:screenToWorld(511, PlayerPedId(), 100)
+-- Raycast that will hit vehicles, peds, ragdolls and objects
+-- Ignores the local player ped
+-- Raycasts 100 units forward from the players mouse
+local _, hit, endCoords, _, entityHit = exports.raycast:screenToWorld(30, PlayerPedId(), 100)
 ```
 
 ```lua
