@@ -17,6 +17,7 @@ local _, hit, endCoords, _, entityHit = exports.raycast:screenToWorld(30, Player
 ```
 
 ```lua
+local eye = false
 RegisterKeyMapping("+use", "Raycast", "keyboard", "LMENU")
 RegisterCommand("+use", function()
     eye = true
