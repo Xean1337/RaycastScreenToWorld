@@ -10,7 +10,7 @@ exports.raycast:screenToWorld(flags ignore, distance)
 # Example Usage
 
 ```lua
-local retval, hit, endCoords, surfaceNormal, entityHit = exports.raycast:screenToWorld(511, PlayerPedId(), 100)
+local _, hit, endCoords, _, entityHit = exports.raycast:screenToWorld(511, PlayerPedId(), 100)
 ```
 
 ```lua
